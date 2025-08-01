@@ -27,7 +27,7 @@ end
 return packer.startup(function(use)
   use("wbthomason/packer.nvim")
 
-  use("bluz71/vim-nightfly-colors") -- preffered colorscheme
+  use("shaunsingh/nord.nvim") -- preffered colorscheme
 
   if packer_bootstrap then
     require("packer").sync()

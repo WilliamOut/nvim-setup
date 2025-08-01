@@ -23,7 +23,15 @@ opt.cursorline = true
 
 --appearance 
 opt.termguicolors = true
-opt.background = "dark"
+-- opt.background = "dark"
+vim.g.nord_disable_background = true
+-- remove fundo das áreas principais
+vim.cmd([[highlight Normal guibg=NONE ctermbg=NONE]])
+vim.cmd([[highlight NormalNC guibg=NONE ctermbg=NONE]])
+vim.cmd([[highlight EndOfBuffer guibg=NONE ctermbg=NONE]])
+vim.cmd([[highlight LineNr guibg=NONE ctermbg=NONE]])
+vim.cmd([[highlight SignColumn guibg=NONE ctermbg=NONE]])
+
 opt.signcolumn = "yes"
 
 --backspace
