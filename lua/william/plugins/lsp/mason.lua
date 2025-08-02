@@ -21,9 +21,9 @@ mason_lspconfig.setup({
 		"cssls",
 		"tailwindcss",
 		"lua_ls",
-		"jdtls",
 		"clangd",
 		"intelephense",
+		"ts_ls",
 	},
 })
 
