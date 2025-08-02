@@ -1,9 +1,5 @@
 # 🌟 Meu Setup Neovim — Modular e Poderoso com Packer, LSP, Mason e mais!
 
-![Neovim Logo](https://upload.wikimedia.org/wikipedia/commons/3/3a/Neovim-mark-flat.svg)
-> Um setup construído do zero com foco em **modularidade**, **performance** e **experiência de usuário**.
-
----
 
 ## ✨ Visão Geral
 
