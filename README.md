@@ -26,3 +26,6 @@ Este repositório contém meu setup pessoal do **Neovim**, configurado em **Lua*
 
 Organizei os arquivos de configuração de forma que cada parte do editor seja isolada por responsabilidade:
 
+## Obs
+
+Necessario baixar o JDTLS eclipse diretamente pelo site para que a extensão do java funcione. Além disso, é importante setar o java home no bash para reconhecer a jdk

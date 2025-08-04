@@ -16,3 +16,10 @@ require("william.plugins.treesitter")
 require("william.plugins.gitsigns")
 require("william.plugins.alpha")
 require("william.plugins.dressing")
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "java",
+  callback = function()
+    require("william.plugins.java")
+  end,
+})

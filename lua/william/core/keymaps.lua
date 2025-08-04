@@ -1,6 +1,5 @@
 vim.g.mapleader = " "
 local keymap = vim.keymap 
-
 keymap.set("i", "jk", "<ESC>")
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 
@@ -27,6 +26,7 @@ keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 -- save file
 keymap.set("n", "<leader>w", ":w<CR>")
 
+vim.keymap.set("n", "<leader>ja", vim.lsp.buf.code_action, { noremap = true, silent = true }) -- java source atalho
 
 
 -- telescope

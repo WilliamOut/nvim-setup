@@ -114,7 +114,7 @@ return packer.startup(function(use)
 
   use("stevearc/dressing.nvim") -- better UI for input
 
-  use("mfussenegger/nvim-jdtls")
+  use("mfussenegger/nvim-jdtls") -- Integração avançada Java
   if packer_bootstrap then
     require("packer").sync()
   end

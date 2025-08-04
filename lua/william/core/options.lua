@@ -4,9 +4,11 @@ local opt = vim.opt -- for conciseness
 opt.relativenumber = false
 opt.number = true
 
+--cursor 
+opt.guicursor = "n-v-c-sm:ver25,i-ci-ve:ver25,r-cr-o:ver25"
 -- tabs & indentation
-opt.tabstop = 2
-opt.shiftwidth = 2
+opt.tabstop = 4
+opt.shiftwidth = 4
 opt.expandtab = true
 opt.autoindent = true
 
